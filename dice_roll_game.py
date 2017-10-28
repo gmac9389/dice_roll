@@ -2,8 +2,7 @@ import random
 random.random()
 
 def dice_roll():
-    roll = 'You rolled a: ', random.randint(1,6)
-    return roll
+    return ('You rolled a: ')+ str(random.randint(1,6)))
 
 
 user_input = ''
